@@ -18,11 +18,13 @@ classifiers = [
 ]
 license = {text = "Apache-2.0"}
 
+dynamic = ["keywords"]
+
 dependencies = [
     "basicsr", "facexlib", "lmdb", "numpy", "opencv-python", "pyyaml",
     "scipy", "tb-nightly", "torch", "torchvision", "tqdm", "yapf", "cython"
 ]
 
 [project.urls]
-Homepage = "github.com/Disty0/GFPGAN"
+Homepage = "https://github.com/Disty0/GFPGAN"
 Issues = "https://github.com/TencentARC/GFPGAN/issues"
